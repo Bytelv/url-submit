@@ -1,6 +1,5 @@
 def commit_urls():
     print("将最新的url提交到百度和bing")
-    os.system("git checkout gh-pages")
     urls = []
 
     # 生成url列表
