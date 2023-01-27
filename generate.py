@@ -20,6 +20,6 @@ with open('urls.txt', 'w') as file:
     listUrl.append(data)
 
 bingData["siteUrl"] = site
-bingData["urlList"] = listUrl[:8]
+bingData["urlList"] = listUrl[:10]
 with open("bing.json", "w") as f:
   json.dump(bingData,f)
